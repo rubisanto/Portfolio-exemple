@@ -113,6 +113,47 @@ a{
 
 
 
+.page-content .projects-section {
+    margin-top: 6%;
+
+}
+
+.page-content .projects-section h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.page-content .projects-section .projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-content .projects-section .projects .project{
+    max-width: 195px;
+    margin-right: 50px;
+}
+
+
+.page-content .projects-section .projects .project h4{
+    margin: 0;
+
+}
+
+.page-content .projects-section .projects .project .description{
+    font-size: 15px;
+
+}
+.page-content .projects-section .projects .project .dates{
+    font-size: 13px;
+    color: #818181;
+
+}
+
+
+
+
+
+
 /* Responsive */
 
 @media screen and (max-width: 700px){
@@ -125,6 +166,20 @@ a{
     }
     .page-content header{
         margin-top: 10%;
+        max-width: 100%;
+    }
+
+    .page-content .projects-section{
+        margin-top: 15%;
+
+    }
+    .page-content .projects-section h2{
+        font-size: 1.5em;
+    }
+
+    .page-content .projects-section .projects .project{
+        margin-right: 0;
+        margin-bottom: 20px;
         max-width: 100%;
     }
 }
