@@ -101,6 +101,15 @@ a{
 }
 
 
+.page-content .presentation-image{
+    margin-top: 5%;
+}
+
+.page-content .presentation-image img{
+    max-width: 100%;
+    height: auto;
+
+}
 
 
 
