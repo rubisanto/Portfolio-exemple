@@ -57,6 +57,53 @@ a{
     color: black;
 }
 
+.page-content {
+    margin: 4%;
+
+}
+
+.page-content header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.page-content header h1{
+    margin: 0;
+    /* mettre en majuscule  */
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    /* unité en view width */
+    font-size: 6vw;
+}
+
+.page-content header p{
+    /* agrandir l'espace entre chaque lettre */
+    line-height: 30px;
+    color: #818181;
+}
+
+.page-content header button{
+    /* prend la couleur d'arrière plan de son parent  */
+    background-color: inherit;
+    border: none;
+    /* enelevr la bordure au clic  */
+    outline: none;
+    padding-left: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.page-content header button:hover{
+    color: #ccc;
+    border-bottom-color: black; 
+}
+
+
+
+
+
 /* Responsive */
 
 @media screen and (max-width: 700px){
@@ -66,6 +113,10 @@ a{
 
     nav ul {
         display: none;
+    }
+    .page-content header{
+        margin-top: 10%;
+        max-width: 100%;
     }
 }
 
