@@ -27,6 +27,7 @@ nav .profile img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 nav .profile h1{
@@ -149,6 +150,29 @@ a{
 
 }
 
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white; 
+    padding: 10px;
+}
+footer .colonne a{
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+footer .colonne p {
+    font-size: 14px;
+    color: #ccc;
+   
+}
+
+footer .colonne p:hover {
+    color: white;
+}
 
 
 
@@ -181,6 +205,15 @@ a{
         margin-right: 0;
         margin-bottom: 20px;
         max-width: 100%;
+    }
+
+    footer{
+        justify-content: flex-start;
+
+    }
+
+    footer .colonne{
+        width: 80%;
     }
 }
 
